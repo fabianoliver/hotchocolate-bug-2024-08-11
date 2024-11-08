@@ -7,10 +7,6 @@
     <LangVersion>preview</LangVersion>
   </PropertyGroup>
 
-  <ItemGroup Condition="'$(ImplicitUsings)' == 'enable'">
-    <Using Include="HotChocolateSample" />
-  </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="HotChocolate.AspNetCore" Version="14.1.0" />
     <PackageReference Include="HotChocolate.AspNetCore.CommandLine" Version="14.1.0" />
